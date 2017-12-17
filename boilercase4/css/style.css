@@ -77,7 +77,7 @@ section.appetizers {
 
 .front {
     height: 100%;
-    background-image: url(images/ananas1234-kopi.jpg);
+    background-image: url("../images/ananas1234-kopi.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 300px;
