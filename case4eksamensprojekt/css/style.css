@@ -1,0 +1,969 @@
+/*base*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+H1 {
+    padding: 150px 100px 30px 100px;
+    text-align: center;
+    color: tan;
+    font-family: roboto;
+    
+
+}
+
+.logo {
+    width: 100px;
+
+}
+
+nav {
+    margin: 15px;
+    position: sticky;
+    width: 100%;
+    right: 0;
+
+}
+
+.container-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+section.appetizers {
+    padding: 60px 0;
+}
+
+/*appetizers*/
+
+.baad {
+
+    width: 90%;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: 10px;
+
+}
+
+.computer {
+    width: 90%;
+    padding: 10px;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+}
+
+.mig1 {
+    width: 90%;
+    padding: 10px;
+    display: block;
+    margin-left: 10px;
+    margin-right: auto;
+
+}
+
+/*fakeknap*/
+
+
+.front {
+    height: 100%;
+    background-image: url("../images/ananas1234-kopi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 300px;
+    background-position: center center;
+    max-width: 100%;
+}
+
+
+
+
+.filter {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    /* For IE8 and earlier */
+}
+
+.filter:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    /* For IE8 and earlier */
+}
+
+/*appetizers slut*/
+
+p {
+    font-family: raleway;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+
+
+}
+
+.newspaper {
+    -webkit-columns: 100px 2;
+    -moz-columns: 100px 2;
+    columns: 100px 2;
+}
+
+/*photoshop underside */
+
+.photoshop {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.saxo1 {
+    width: 60%;
+    margin-bottom: 15px;
+}
+
+.saxo2 {
+    width: 60%;
+    margin-bottom: 15px;
+}
+
+.strand1 {
+    width: 60%;
+    margin-bottom: 15px;
+}
+
+.strand2 {
+    width: 60%;
+    margin-bottom: 15px;
+}
+
+/*photoshop underside slut */
+
+/*case 2 underside*/
+.prototype5 {
+    width: 90%;
+    margin: 10px;
+}
+
+.prototype6 {
+    width: 90%;
+    margin: 10px;
+
+}
+
+.prototype7 {
+    width: 90%;
+    margin: 10px;
+}
+
+.budgetlife {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.aarhus{
+    width: 100%;
+    margin: 10px;
+}
+
+/*case 2 underside slut*/
+
+/*case 1 underside*/
+.prototype1 {
+    width: 20%;
+    margin: 20px;
+}
+
+.prototype2 {
+    width: 20%;
+    margin: 20px;
+}
+
+.prototype3 {
+    width: 20%;
+    margin: 20px;
+}
+
+.prototype4 {
+    width: 20%;
+    margin: 20px;
+}
+
+.streetfood1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.streetfood2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.prototype9{
+    width: 90%;
+}
+/*case 1 underside slut*/
+
+h3{
+    font-family: raleway;
+}
+
+.newspaper1 {
+    
+    text-align: center;
+    padding-bottom: 20px;
+    
+    
+    
+}
+
+.mig2{
+
+    width: 40%;
+    margin-top: 15px;
+}
+
+.wrapper1{
+    width: 50%;
+    margin: auto;
+}
+
+/*case 3 underside*/
+.murer1{
+    width: 60%;
+     margin: 20px;;
+}
+
+.murer2{
+    width: 60%;
+     margin: 20px;
+}
+
+.murer3{
+    width: 60%;
+     margin: 20px;
+}
+
+
+.murer4{
+    width: 60%;
+     margin: 20px;
+    
+}
+
+.murer5{
+    width: 60%;
+    margin: 20px;
+}
+
+.murer6{
+    width: 60%;
+    margin: 20px;
+    
+}
+
+.murer7{
+    width: 60%;
+     margin: 20px;
+    
+}
+
+.murer8{
+    width: 60%;
+     margin: 20px;
+    
+}
+
+#case3logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+/*case 3 underside slut*/
+
+
+/*base slut*/
+
+@media screen and (min-width:769px) {
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        text-align: right;
+        margin: 5px;
+        font-family: raleway;
+
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        overflow: hidden;
+        float: right;
+    }
+
+    li {
+        display: inline;
+    }
+
+    li a,
+    .dropbtn {
+        display: inline-block;
+        color: black;
+        font-size: 140%;
+        text-align: right;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover,
+    .dropdown:hover .dropbtn {
+        background-color: none;
+    }
+
+    li.dropdown {
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 160px;
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+    }
+
+    .dropdown-content a:hover {
+        background-color: white;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+
+    /* menu slut - lavet vha. linket: https://www.w3schools.com/css/css_dropdowns.asp */
+    /*background*/
+    .front {
+        height: 100%;
+        background-image: url(/images/ananas1234-kopi.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 300px;
+        background-position: center center;
+        max-width: 100%;
+    }
+
+    footer {
+        text-align: center;
+        border-top: 1px solid black;
+        display: block;
+    }
+
+    .logo {
+        width: 100px;
+        margin-left: 20px;
+    }
+
+    nav {
+        margin: 15px;
+        position: absolute;
+        width: 100%;
+        right: 0;
+    }
+
+    .center {
+        position: absolute;
+        left: 30%;
+        transform: translate(-115%, -200%);
+        border: 2px solid;
+        color: black;
+        border-radius: 500px;
+        padding: 3px;
+        font-size: 20px;
+    }
+
+    .center2 {
+        position: absolute;
+        left: 34%;
+        transform: translate(200%, -200%);
+        border: 2px solid;
+        color: black;
+        border-radius: 500px;
+        padding: 3px;
+        font-size: 20px;
+    }
+
+    .center3 {
+        position: absolute;
+        left: 34%;
+        transform: translate(590%, -200%);
+        border: 2px solid;
+        color: black;
+        border-radius: 500px;
+        padding: 3px;
+        font-size: 20px;
+    }
+
+    H1 {
+        font-size: 28px;
+    }
+
+}
+
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    /* menu */
+    nav {
+        display: flex;
+        justify-content: space-between;
+        margin: 5px;
+        font-family: raleway;
+
+    }
+
+    ul {
+        list-style-type: none;
+        overflow: hidden;
+
+    }
+
+    li {
+        display: inline;
+    }
+
+    li a,
+    .dropbtn {
+        display: inline-block;
+        color: black;
+        font-size: 120%;
+        text-align: right;
+        padding: 14px 10px;
+        text-decoration: none;
+    }
+
+    li a:hover,
+    .dropdown:hover .dropbtn {
+        background-color: none;
+    }
+
+    li.dropdown {
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 160px;
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+    }
+
+    .dropdown-content a:hover {
+        background-color: white;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+
+    /* menu slut - lavet vha. linket: https://www.w3schools.com/css/css_dropdowns.asp */
+    /*background*/
+    .front {
+        height: 100%;
+        background-image: url(/images/ananas1234-kopi.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 300px;
+        background-position: center center;
+        max-width: 100%;
+
+
+
+    }
+
+    /*background slut*/
+    footer {
+        text-align: center;
+        border-top: 1px solid black;
+        display: block;
+    }
+
+    .logo {
+        width: 85px;
+        margin-left: 20px;
+    }
+
+    nav {
+        margin: 15px;
+        position: absolute;
+        width: 100%;
+        right: 0;
+    }
+
+    .center {
+        position: absolute;
+        left: 30%;
+        transform: translate(-115%, -200%);
+        border: 2px solid;
+        color: black;
+        border-radius: 500px;
+        padding: 3px;
+        font-size: 20px;
+    }
+
+    .center2 {
+        position: absolute;
+        left: 34%;
+        transform: translate(100%, -200%);
+        border: 2px solid;
+        color: black;
+        border-radius: 500px;
+        padding: 3px;
+        font-size: 20px;
+    }
+
+    .center3 {
+        position: absolute;
+        left: 34%;
+        transform: translate(320%, -200%);
+        border: 2px solid;
+        color: black;
+        border-radius: 500px;
+        padding: 3px;
+        font-size: 20px;
+    }
+
+    H1 {
+        font-size: 26px;
+    }
+    
+ .prototype9{
+    width: 100%;
+    margin: auto;
+}
+    
+/*case 3 underside*/
+.murer1{
+    width: 70%;
+     margin: 20px;;
+}
+
+.murer2{
+    width: 70%;
+     margin: 20px;
+}
+
+.murer3{
+    width: 70%;
+     margin: 20px;
+}
+
+
+.murer4{
+    width: 70%;
+     margin: 20px;
+    
+}
+
+.murer5{
+    width: 70%;
+    margin: 20px;
+}
+
+.murer6{
+    width: 70%;
+    margin: 20px;
+    
+}
+
+.murer7{
+    width: 70%;
+     margin: 20px;
+    
+}
+
+.murer8{
+    width: 70%;
+     margin: 20px;
+    
+}
+
+#case3logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+
+/*case 3 underside slut*/    
+    
+}
+
+
+@media screen and (max-width:480px) {
+    /* menu */
+    nav {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        margin: 5px;
+        font-family: raleway;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        overflow: hidden;
+        background-color: none;
+
+    }
+
+    li {
+        display: inline;
+    }
+
+    li a,
+    .dropbtn {
+        display: inline-block;
+        color: black;
+        font-size: 90%;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover,
+    .dropdown:hover .dropbtn {
+        background-color: none;
+    }
+
+    li.dropdown {
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 160px;
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+    }
+
+    .dropdown-content a:hover {
+        background-color: white;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+
+    /* menu slut - lavet vha. linket: https://www.w3schools.com/css/css_dropdowns.asp */
+    /*background*/
+    .front {
+        height: 100%;
+        background-image: url(/images/ananas1234-kopi.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 100px;
+        background-position: center center;
+        max-width: 100%;
+
+    }
+
+    /*background slut*/
+    /*logo*/
+    .logo {
+        width: 75px;
+        margin-left: 15px;
+        float: left;
+    }
+    /*logo slut*/
+    /*appetizers*/
+    .container-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: auto
+    }
+    section.appetizers {
+        padding: 10px 10px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .baad {
+
+        width: 60%;
+        padding: 20px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .computer {
+        width: 60%;
+        padding: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .mig1 {
+        width: 60%;
+        padding: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .filter {
+        opacity: 1.;
+        filter: alpha(opacity=100);
+        /* For IE8 and earlier */
+    }
+
+    .filter:hover {
+        opacity: 1.0;
+        filter: alpha(opacity=100);
+        /* For IE8 and earlier */
+    }
+    /*appetizers slut*/
+    footer {
+        text-align: center;
+        border-top: 1px solid black;
+        display: block;
+    }
+
+    /*photoshop*/
+    H1 {
+        padding: 15px;
+        text-align: center;
+        color: tan;
+        font-family: roboto;
+        font-size: 26px;
+    }
+    .center {
+        position: absolute;
+        left: 30%;
+        transform: translate(15%, -400%);
+        border: 2px solid;
+        color: black;
+        border-radius: 500px;
+        padding: 3px;
+        font-size: 20px;
+    }
+
+    .center2 {
+        position: absolute;
+        left: 34%;
+        transform: translate(35%, -300%);
+        border: 2px solid;
+        color: black;
+        border-radius: 500px;
+        padding: 3px;
+        font-size: 20px;
+    }
+
+    .center3 {
+        position: absolute;
+        left: 34%;
+        transform: translate(25%, -300%);
+        border: 2px solid;
+        color: black;
+        border-radius: 500px;
+        padding: 3px;
+        font-size: 20px;
+    }
+
+    .newspaper {
+        -webkit-columns: 100px 1;
+        -moz-columns: 100px 1;
+        columns: 100px 1;
+    }
+
+    .saxo1 {
+        width: 90%;
+        margin-bottom: 15px;
+    }
+
+    .saxo2 {
+        width: 90%;
+    }
+
+    .CASES {
+        font-size: 25px;
+        margin-bottom: -30px;
+    }
+
+    .strand1 {
+        width: 90%;
+    }
+
+    .strand2 {
+        width: 90%;
+    }
+/*photoshop slut*/
+
+    /*case1*/
+    .prototype1 {
+        width: 50%;
+        margin: 10px;
+    }
+    .prototype2 {
+        width: 50%;
+        margin: 10px;
+    }
+    .prototype3 {
+        width: 50%;
+        margin: 10px;
+    }
+    .prototype4 {
+        width: 50%;
+        margin: 10px;
+    }
+
+    .streetfood1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .prototype9{
+    width: 100%;
+    margin: auto;
+}
+    /*case1 slut*/
+    
+    /*ommig*/
+    .mig2{
+
+    width: 70%;
+    margin-top: 15px;
+}
+
+.wrapper1{
+    width: 80%;
+    margin: auto;
+}
+/*ommig slut*/
+    
+    
+    /*case 3 underside*/
+.murer1{
+    width: 90%;
+     margin: 20px;;
+}
+
+.murer2{
+    width: 90%;
+     margin: 20px;
+}
+
+.murer3{
+    width: 90%;
+     margin: 20px;
+}
+
+
+.murer4{
+    width: 90%;
+     margin: 20px;
+    
+}
+
+.murer5{
+    width: 90%;
+    margin: 20px;
+}
+
+.murer6{
+    width: 90%;
+    margin: 20px;
+    
+}
+
+.murer7{
+    width: 90%;
+     margin: 20px;
+    
+}
+
+.murer8{
+    width: 90%;
+     margin: 20px;
+    
+}
+
+#case3logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+/*case 3 underside slut*/
+    
+}
